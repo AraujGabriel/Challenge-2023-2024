@@ -5,6 +5,9 @@ drop table Requisicao cascade constraints;
 drop table Produto_fornecedor cascade constraints;
 drop table Registra_req cascade constraints;
 drop table Erros cascade constraints;
+drop table registro_insercao_fornecedor cascade constraints;
+drop table registro_exclusao_fornecedor cascade constraints;
+
 set serveroutput on;
 
 --------------------------------------------------------------------------------------
